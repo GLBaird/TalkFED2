@@ -1,0 +1,17 @@
+{
+  "name": "demo_node",
+  "version": "1.0.0",
+  "description": "A simple demo of node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Demo",
+    "Training",
+    "Hi",
+    "there"
+  ],
+  "author": "Leon Baird <leonbaird@mac.com>",
+  "license": "MIT"
+}

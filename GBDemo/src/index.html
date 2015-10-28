@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="GBDemo">
+<head>
+    <meta charset="UTF-8">
+    <title>GBDemo</title>
+
+    <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="bower/angular/angular.js"></script>
+    <script src="bower/angular-route/angular-route.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>GBDemo</h1>
+    </header>
+
+    <nav class="shadow">
+		<a href='#/mainview'>MainView</a>
+		<a href='#/customerview'>CustomerView</a>
+		<a href='#/productlist'>ProductList</a>
+
+    </nav>
+
+    <main>
+        <div ng-view></div>
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
